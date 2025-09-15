@@ -1,0 +1,9 @@
+def multiply_list(numbers: list[float]) -> float:
+    product = 1
+    for n in numbers:
+        product *= n
+    return product
+
+# quick tests
+print(multiply_list([2, 3, 7]))  # 24
+print(multiply_list([]))         # 1
