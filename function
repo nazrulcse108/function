@@ -1,9 +1,6 @@
-def multiply_list(numbers: list[float]) -> float:
-    product = 1
-    for n in numbers:
-        product *= n
-    return product
+def is_even(num: int) -> bool:
+    return num % 2 == 0
 
 # quick tests
-print(multiply_list([2, 3, 7]))  # 24
-print(multiply_list([]))         # 1
+print(is_even(10))  # True
+print(is_even(7))   # False
